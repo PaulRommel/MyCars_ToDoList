@@ -17,7 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		A08D0CF127776D0700669B49 /* ToDoListMyCars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoListMyCars.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A08D0CF127776D0700669B49 /* ToDoList_CoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoList_CoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A08D0CF427776D0700669B49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A08D0CF627776D0700669B49 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A08D0CFB27776D0700669B49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -42,7 +42,7 @@
 		A08D0CE827776D0700669B49 = {
 			isa = PBXGroup;
 			children = (
-				A08D0CF327776D0700669B49 /* ToDoListMyCars */,
+				A08D0CF327776D0700669B49 /* ToDoList_CoreData */,
 				A08D0CF227776D0700669B49 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -50,12 +50,12 @@
 		A08D0CF227776D0700669B49 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A08D0CF127776D0700669B49 /* ToDoListMyCars.app */,
+				A08D0CF127776D0700669B49 /* ToDoList_CoreData.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A08D0CF327776D0700669B49 /* ToDoListMyCars */ = {
+		A08D0CF327776D0700669B49 /* ToDoList_CoreData */ = {
 			isa = PBXGroup;
 			children = (
 				A08D0CF427776D0700669B49 /* AppDelegate.swift */,
@@ -67,15 +67,15 @@
 				A08D0D0527776D0900669B49 /* Info.plist */,
 				A08D0CFD27776D0700669B49 /* ToDoListMyCars.xcdatamodeld */,
 			);
-			path = ToDoListMyCars;
+			path = ToDoList_CoreData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A08D0CF027776D0700669B49 /* ToDoListMyCars */ = {
+		A08D0CF027776D0700669B49 /* ToDoList_CoreData */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A08D0D0827776D0900669B49 /* Build configuration list for PBXNativeTarget "ToDoListMyCars" */;
+			buildConfigurationList = A08D0D0827776D0900669B49 /* Build configuration list for PBXNativeTarget "ToDoList_CoreData" */;
 			buildPhases = (
 				A08D0CED27776D0700669B49 /* Sources */,
 				A08D0CEE27776D0700669B49 /* Frameworks */,
@@ -85,9 +85,9 @@
 			);
 			dependencies = (
 			);
-			name = ToDoListMyCars;
+			name = ToDoList_CoreData;
 			productName = ToDoListMyCars;
-			productReference = A08D0CF127776D0700669B49 /* ToDoListMyCars.app */;
+			productReference = A08D0CF127776D0700669B49 /* ToDoList_CoreData.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -105,7 +105,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A08D0CEC27776D0700669B49 /* Build configuration list for PBXProject "ToDoListMyCars" */;
+			buildConfigurationList = A08D0CEC27776D0700669B49 /* Build configuration list for PBXProject "ToDoList_CoreData" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -118,7 +118,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A08D0CF027776D0700669B49 /* ToDoListMyCars */,
+				A08D0CF027776D0700669B49 /* ToDoList_CoreData */,
 			);
 		};
 /* End PBXProject section */
@@ -295,7 +295,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 45M64WD4NB;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ToDoListMyCars/Info.plist;
+				INFOPLIST_FILE = ToDoList_CoreData/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -306,7 +306,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.hamburger.ToDoListMyCars;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hamburger.ToDoList_CoreData;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -323,7 +323,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 45M64WD4NB;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ToDoListMyCars/Info.plist;
+				INFOPLIST_FILE = ToDoList_CoreData/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -334,7 +334,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.hamburger.ToDoListMyCars;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hamburger.ToDoList_CoreData;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -345,7 +345,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A08D0CEC27776D0700669B49 /* Build configuration list for PBXProject "ToDoListMyCars" */ = {
+		A08D0CEC27776D0700669B49 /* Build configuration list for PBXProject "ToDoList_CoreData" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A08D0D0627776D0900669B49 /* Debug */,
@@ -354,7 +354,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A08D0D0827776D0900669B49 /* Build configuration list for PBXNativeTarget "ToDoListMyCars" */ = {
+		A08D0D0827776D0900669B49 /* Build configuration list for PBXNativeTarget "ToDoList_CoreData" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A08D0D0927776D0900669B49 /* Debug */,
